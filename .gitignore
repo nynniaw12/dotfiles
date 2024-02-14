@@ -1,0 +1,23 @@
+# Don't include files with sensitive data
+/.zshrc-secrets
+
+# iJunk
+.DS_Store
+.MacOSX
+.Trash
+
+# Node stuff
+/.v8flags.*
+
+# ZSH junk
+/.zcompdump*
+/.zsh-update
+
+# Virtual envs
+/.virtualenvs
+/.rvm
+/.nvm
+
+# History files
+/.*history
+
