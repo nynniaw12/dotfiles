@@ -105,7 +105,7 @@ export PATH="/opt/homebrew/bin:$PATH" >> ~/.zshrc
 source $(brew --prefix nvm)/nvm.sh
 export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
 alias t="todo.sh"  
-figlet -f calgphy2 -c "Aybo"  
+ 
 # tat: tmux attach
 function tat {
   name=$(basename `pwd` | sed -e 's/\.//g')
@@ -118,3 +118,6 @@ function tat {
     tmux new-session -s "$name"
   fi
 }
+export EDITOR=nvim
+export VISUAL="$EDITOR"
+figlet -f calgphy2 -c "Aybo" 
