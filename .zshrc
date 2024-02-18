@@ -120,4 +120,5 @@ function tat {
 }
 export EDITOR=nvim
 export VISUAL="$EDITOR"
-export PATH="$PATH:$CARGO_HOME/bin"
+export PATH="$PATH:$CARGO_HOME/bin:/Applications/WezTerm.app/Contents/MacOS"
+
