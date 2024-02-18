@@ -120,4 +120,5 @@ function tat {
 }
 export EDITOR=nvim
 export VISUAL="$EDITOR"
+export PATH="$PATH:$CARGO_HOME/bin"
 figlet -f calgphy2 -c "Aybo" 

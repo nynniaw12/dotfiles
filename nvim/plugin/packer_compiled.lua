@@ -167,6 +167,11 @@ _G.packer_plugins = {
     path = "/Users/hasanaybarsari/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-silicon"] = {
+    loaded = true,
+    path = "/Users/hasanaybarsari/.local/share/nvim/site/pack/packer/start/vim-silicon",
+    url = "https://github.com/segeljakt/vim-silicon"
+  },
   vimtex = {
     loaded = true,
     path = "/Users/hasanaybarsari/.local/share/nvim/site/pack/packer/start/vimtex",

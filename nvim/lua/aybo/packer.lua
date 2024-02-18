@@ -23,7 +23,6 @@ return require('packer').startup(function(use)
             ts_update()
         end, }
     use("nvim-treesitter/playground")
-
     use "nvim-lua/plenary.nvim" -- don't forget to add this one if you don't have it yet!
     use {
         "ThePrimeagen/harpoon",
@@ -75,4 +74,5 @@ return require('packer').startup(function(use)
            }
         end
     })
+    use 'segeljakt/vim-silicon'
 end)
