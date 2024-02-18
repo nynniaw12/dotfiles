@@ -8,7 +8,6 @@ return require('packer').startup(function(use)
         tag = '0.1.5', -- or branch = '0.1.x',
         requires = { 'nvim-lua/plenary.nvim' }
     }
-
     use {
         'rose-pine/neovim',
         as = 'rose-pine',
@@ -71,8 +70,26 @@ return require('packer').startup(function(use)
         config = function()
             require("trouble").setup {
                 icons = false,
-           }
+            }
         end
     })
     use 'segeljakt/vim-silicon'
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
+    use {
+        "folke/noice.nvim",
+        opts = {
+            -- add any options here
+        },
+        dependencies = {
+            -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
+            "MunifTanjim/nui.nvim",
+            -- OPTIONAL:
+            --   `nvim-notify` is only needed, if you want to use the notification view.
+            --   If not available, we use `mini` as the fallback
+            "rcarriga/nvim-notify",
+        }
+    }
 end)
