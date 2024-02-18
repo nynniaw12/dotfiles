@@ -14,7 +14,6 @@ vim.opt.rtp:prepend(lazypath)
 
 vim.g.mapleader = " "
 
-
 return require('lazy').setup(
     {
         {
@@ -46,6 +45,7 @@ return require('lazy').setup(
         "mbbill/undotree",
         "tpope/vim-fugitive",
         "tpope/vim-vinegar",
+        "tpope/vim-surround",
         {
             'VonHeikemen/lsp-zero.nvim',
             branch = 'v3.x',
