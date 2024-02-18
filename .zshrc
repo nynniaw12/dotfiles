@@ -100,12 +100,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH="/opt/homebrew/bin:$PATH" >> ~/.zshrc
-
-
 source $(brew --prefix nvm)/nvm.sh
 export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
 alias t="todo.sh"  
- 
+alias firebase="`npm config get prefix`/bin/firebase"
+
+
 # tat: tmux attach
 function tat {
   name=$(basename `pwd` | sed -e 's/\.//g')
