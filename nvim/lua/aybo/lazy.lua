@@ -23,10 +23,10 @@ return require('lazy').setup(
             dependencies = { 'nvim-lua/plenary.nvim' }
         },
         {
-            'rose-pine/neovim',
-            as = 'rose-pine',
+            'rebelot/kanagawa.nvim',
+            as = 'kanagawa',
             config = function()
-                vim.cmd('colorscheme rose-pine')
+                vim.cmd('colorscheme kanagawa')
             end
         },
         {
@@ -45,6 +45,7 @@ return require('lazy').setup(
         },
         "mbbill/undotree",
         "tpope/vim-fugitive",
+        "tpope/vim-vinegar",
         {
             'VonHeikemen/lsp-zero.nvim',
             branch = 'v3.x',
