@@ -1,5 +1,3 @@
-local noice = require("noice")
-
 require('lualine').setup {
   options = {
     icons_enabled = true,
@@ -9,8 +7,8 @@ require('lualine').setup {
   sections = {
     lualine_x = {
       {
-        noice.api.statusline.mode.get,
-        cond = noice.api.statusline.mode.has,
+        require("noice").api.statusline.mode.get,
+        cond = require("noice").api.statusline.mode.has,
         color = { fg = "#ff9e64" },
       }
     },
