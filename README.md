@@ -4,7 +4,8 @@ and with personal additions these include most importantly the package manager o
 tmux, [wezterm (fabulous terminal emulator written in Rust)](https://wezfurlong.org/wezterm/)
 many of [tpope's wonderful vim plugins](https://github.com/tpope) such as commentary, vinegar, and surround
 ,the [lualine](https://github.com/nvim-lualine/lualine.nvim), [noice (although you might want to configure this more)](https://github.com/folke/noice.nvim), [vimtex](https://github.com/lervag/vimtex),
-and [silicon for sharing code snippets (please check its own dependencies)](https://github.com/krivahtoo/silicon.nvim). 
+,[silicon for sharing code snippets (please check its own dependencies)](https://github.com/krivahtoo/silicon.nvim), and 
+pandoc and lynx to preview .md files.
 
 ## Prerequisites
 - zsh and .zshenv at ~
@@ -12,6 +13,8 @@ and [silicon for sharing code snippets (please check its own dependencies)](http
 - tmux (optional)
 - wezterm (optional)
 - brew (optional)
+- pandoc (optional)
+- lynx (optional)
 
 ### Contents of .zshenv 
 ```
