@@ -21,6 +21,10 @@ export ZDOTDIR="$HOME/.config"
 ```
 zsh ./.macos
 ```
+### Other Suggestions
+The safari extensions for a cleaner video playback:
+- Vinegar
+- Baking Soda
 
 ## Notes
 You can bootstrap this repository however you like.
