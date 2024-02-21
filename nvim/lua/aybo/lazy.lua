@@ -95,6 +95,13 @@ return require('lazy').setup(
             dependencies = { 'nvim-tree/nvim-web-devicons', opt = true }
         },
         {
+            'numToStr/Comment.nvim',
+            opts = {
+                -- add any options here
+            },
+            lazy = false,
+        },
+        {
             "folke/noice.nvim",
             config = function()
                 require("noice").setup({
