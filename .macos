@@ -48,8 +48,11 @@ defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
+# Currently does not work
+defaults -currentHost write com.apple.screensaver askForPassword -int 1
+defaults -currentHost write com.apple.screensaver askForPasswordDelay -int 0
+
+
 
 
 defaults write com.apple.screencapture location -string "${HOME}/Desktop"
