@@ -174,6 +174,8 @@ defaults write com.apple.commerce AutoUpdate -bool true
 
 /usr/libexec/PlistBuddy -c "Set DesktopViewSettings:IconViewSettings:labelOnBottom true" ~/Library/Preferences/com.apple.finder.plist
 
+defaults write ~/Library/Preferences/FeatureFlags/Domain/UIKit.plist redesigned_text_cursor -dict-add Enabled -bool false
+
 defaults write com.apple.dock minimize-to-application -bool true
 
 defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
