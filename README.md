@@ -7,11 +7,11 @@ many of [tpope's wonderful vim plugins](https://github.com/tpope) such as commen
 and [silicon for sharing code snippets (please check its own dependencies)](https://github.com/krivahtoo/silicon.nvim). 
 
 ## Prerequisites
--- zsh and .zshenv at ~
--- nvim
--- tmux (optional)
--- wezterm (optional)
--- brew (optional)
+- zsh and .zshenv at ~
+- nvim
+- tmux (optional)
+- wezterm (optional)
+- brew (optional)
 
 ### Contents of .zshenv 
 ```
