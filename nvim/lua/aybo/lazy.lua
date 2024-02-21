@@ -44,6 +44,7 @@ return require('lazy').setup(
         },
         "mbbill/undotree",
         "tpope/vim-fugitive",
+        "tpope/vim-commentary",
         "tpope/vim-vinegar",
         "tpope/vim-surround",
         {
@@ -93,13 +94,6 @@ return require('lazy').setup(
         {
             'nvim-lualine/lualine.nvim',
             dependencies = { 'nvim-tree/nvim-web-devicons', opt = true }
-        },
-        {
-            'numToStr/Comment.nvim',
-            opts = {
-                -- add any options here
-            },
-            lazy = false,
         },
         {
             "folke/noice.nvim",
