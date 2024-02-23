@@ -25,6 +25,7 @@ export ZDOTDIR="$HOME/.config"
 zsh ./.macos
 ```
 ### Other Suggestions
+Change caps-lock to escape key to enter normal mode faster.
 The safari extensions for a cleaner video playback:
 - Vinegar
 - Baking Soda

@@ -122,6 +122,20 @@ function tat {
 function rmd {
   pandoc $1 | lynx -stdin
 }
+function gomodrename {
+    if [ $# -ne 2 ]; then
+        echo "Usage: gomodrename <old_module_name> <new_module_name>"
+        return 1
+    fi
+
+    OLD_MODULE=$1
+    NEW_MODULE=$2
+
+    go mod edit -module "$NEW_MODULE"
+
+    find . -type f -name '*.go' \
+        -exec sed -i '' -e 's/{OLD_MODULE}/{NEW_MODULE}/g' {} \;
+}
 
 export EDITOR=nvim
 export VISUAL="$EDITOR"
