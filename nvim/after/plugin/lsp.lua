@@ -26,7 +26,7 @@ cmp.setup({
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-    ensure_installed = { "lua_ls", 'texlab', 'eslint', 'tsserver', 'rust_analyzer' },
+    ensure_installed = { "templ", "golangci_lint_ls","gopls", "lua_ls", 'texlab', 'eslint', 'tsserver', 'rust_analyzer' },
     handlers = {
         lsp_zero.default_setup,
         lua_ls = function()

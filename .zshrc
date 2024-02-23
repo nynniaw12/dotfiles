@@ -104,7 +104,8 @@ source $(brew --prefix nvm)/nvm.sh
 export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
 alias t="todo.sh"  
 alias firebase="`npm config get prefix`/bin/firebase"
-
+alias air="$HOME/go/bin/air"
+alias templ="$HOME/go/bin/templ"
 
 # tat: tmux attach
 function tat {
@@ -139,5 +140,5 @@ function gomodrename {
 
 export EDITOR=nvim
 export VISUAL="$EDITOR"
-export PATH="$PATH:$CARGO_HOME/bin:/Applications/WezTerm.app/Contents/MacOS"
+export PATH="$PATH:$CARGO_HOME/bin:/Applications/WezTerm.app/Contents/MacOS:$HOME/go/bin"
 
