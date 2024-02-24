@@ -1,14 +1,6 @@
 require("obsidian").setup({
     workspaces = {
         {
-            name = "personal",
-            path = "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/aybars-main/personal"
-        },
-        {
-            name = "projects",
-            path = "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/aybars-main/projects"
-        },
-        {
             name = "aybars-main",
             path = "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/aybars-main"
         },
