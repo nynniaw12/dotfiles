@@ -29,6 +29,7 @@ Change caps-lock to escape key to enter normal mode faster.
 The safari extensions for a cleaner video playback:
 - Vinegar
 - Baking Soda
+Use Obsidian for storing notes of any purpose, for a minimal css snippet copy .obsidian over to the root of your vault.
 
 ## Notes
 You can bootstrap this repository however you like.

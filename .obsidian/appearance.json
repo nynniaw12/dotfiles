@@ -1,0 +1,10 @@
+{
+  "accentColor": "#ffffff",
+  "cssTheme": "Kanagawa",
+  "showViewHeader": false,
+  "nativeMenus": false,
+  "monospaceFontFamily": "MesloLGS NF",
+  "enabledCssSnippets": [
+    "nosidebar"
+  ]
+}

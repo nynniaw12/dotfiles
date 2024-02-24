@@ -1,0 +1,31 @@
+.side-dock-ribbon { flex: 0; }
+.workspace-ribbon { width: 0; }
+.view-header {
+    margin-top: 40px;
+ height: 36px;
+ display: flex;
+ border-top: 1px solid var(--background-secondary-alt);
+ border-bottom: 2px solid var(--background-secondary-alt);
+ background-color: var(--background-secondary);
+ z-index: 1;
+}
+.hider-file-nav-header .workspace-leaf-content[data-type=file-explorer] .nav-header {
+  display: none;
+}
+.hider-scroll ::-webkit-scrollbar {
+  display:none;
+}
+.hider-ribbon .workspace-ribbon.mod-left {
+  display:none;
+}
+.hider-ribbon .workspace-ribbon.mod-right {
+  visibility:hidden;
+  position:absolute;
+}
+.workspace-tab-header-container {
+  display: none
+}
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed {
+    display: none
+}
+

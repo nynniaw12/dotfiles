@@ -108,6 +108,8 @@ alias air="$HOME/go/bin/air"
 alias templ="$HOME/go/bin/templ"
 alias tailwindcss="$HOME/tailwindcss"
 
+alias obs="cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/aybars-main"
+
 # tat: tmux attach
 function tat {
   name=$(basename `pwd` | sed -e 's/\.//g')
