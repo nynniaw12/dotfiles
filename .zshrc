@@ -106,6 +106,7 @@ alias t="todo.sh"
 alias firebase="`npm config get prefix`/bin/firebase"
 alias air="$HOME/go/bin/air"
 alias templ="$HOME/go/bin/templ"
+alias tailwindcss="$HOME/tailwindcss"
 
 # tat: tmux attach
 function tat {
