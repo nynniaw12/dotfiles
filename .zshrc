@@ -140,6 +140,7 @@ function gomodrename {
     find . -type f -name '*.go' \
         -exec sed -i '' -e 's/{OLD_MODULE}/{NEW_MODULE}/g' {} \;
 }
+bindkey -s '^f' '~/.config/scripts/tmux-sessionizer\n'
 
 export EDITOR=nvim
 export VISUAL="$EDITOR"
