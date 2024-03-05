@@ -3,7 +3,7 @@
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(find ~/Desktop ~/Desktop/github ~/ ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/aybars-main -mindepth 1 -maxdepth 2 -type d | fzf)
+    selected=$(find ~/Desktop ~/Desktop/github ~/ -mindepth 1 -maxdepth 2 -type d | fzf)
 fi
 
 if [[ -z $selected ]]; then
@@ -13,7 +13,7 @@ fi
 selected_name=$(basename "$selected" | tr . _)
 tmux_running=$(pgrep tmux)
 
-if [[ -z $TMUX ]] && [[ -z $tmux_running ]]; then
+if [[ -z $TMUX ]] || [[ -z $tmux_running ]]; then
     tmux new-session -s $selected_name -c $selected
     exit 0
 fi
