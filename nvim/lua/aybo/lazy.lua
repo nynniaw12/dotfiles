@@ -42,6 +42,7 @@ return require('lazy').setup(
             branch = "harpoon2",
             dependencies = { { "nvim-lua/plenary.nvim" } }
         },
+        "markovejnovic/vim-dssl2",
         "mbbill/undotree",
         "tpope/vim-fugitive",
         "tpope/vim-commentary",
