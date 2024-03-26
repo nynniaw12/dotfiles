@@ -42,7 +42,9 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 
-vim.keymap.set( "n" , "<leader>bn", "<cmd>bnext<CR>", { noremap = true })
-vim.keymap.set( "n" , "<leader>bp" ,"<cmd>bprevious<CR>", { noremap = true })
-vim.keymap.set( "n" , "<leader>bd", "<cmd>bdelete<CR>", { noremap = true })
-
+vim.keymap.set('n', '<leader>tt', '<cmd>tabnew %:p:h<CR>', { noremap = true })
+vim.keymap.set('n', '<leader>tp', '<cmd>tabprev<CR>', { noremap = true })
+vim.keymap.set('n', '<leader>tn', '<cmd>tabnext<CR>', { noremap = true })
+vim.keymap.set('n', '<leader>tc', '<cmd>tabclose<CR>', { noremap = true })
+vim.keymap.set('n', '<leader>te', ':tabedit<Space>', { noremap = true })
+vim.keymap.set('n', '<leader>tm', ':tabm<Space>', { noremap = true })
